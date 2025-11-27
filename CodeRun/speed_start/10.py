@@ -11,5 +11,8 @@ def nod(a, b):
     else:
         return nod(a, b - a)
 
+def nok(a, b):
+    return a * b / nod(a, b)
 
-print(nod(a,b))
+
+print(nod(a, b), int(nok(a, b)))
