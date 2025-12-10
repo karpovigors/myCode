@@ -5,8 +5,8 @@ mas = []
 
 for a, b in a_b:
     l, r = min(a, b), max(a, b)
-    mas.append([a_b[l][0], 0])
-    mas.append([a_b[r][1], 2])
+    mas.append([l, 0])
+    mas.append([r, 2])
 
 for i, x in enumerate(x_mas):
     mas.append([x, 1, i])
