@@ -7,4 +7,4 @@ JOIN (
     UNION ALL
     SELECT model, price FROM Printer
 ) x ON x.model = p.model
-WHERE p.maker = 'B';
+WHERE p.maker = 'B'

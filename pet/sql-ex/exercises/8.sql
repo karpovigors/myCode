@@ -6,4 +6,4 @@ WHERE p.type = 'PC'
       FROM Product x
       WHERE x.maker = p.maker
         AND x.type = 'Laptop'
-);
+)
